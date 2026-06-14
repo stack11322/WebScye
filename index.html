@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luminary — Intelligent Workflow Platform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="templatemo-621-luminary-style.css">
+<!--
+TemplateMo 621 Luminary
+https://templatemo.com/tm-621-luminary
+-->
+</head>
+<body>
+
+<svg class="grain" width="100%" height="100%">
+  <filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="5" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+  <rect width="100%" height="100%" filter="url(#n)"/>
+</svg>
+
+<div class="atmosphere"></div>
+
+<!-- Nav -->
+<nav class="top-nav" id="topNav">
+  <a href="#" class="nav-brand">Web<span>Scye</span></a>
+  <ul class="nav-links">
+    <li><a href="#features">Работы</a></li>
+    <li><a href="#pricing">Услуги</a></li>
+    <li><a href="#testimonials">Отзывы</a></li>
+    <li><a href="#integrations">Технологии</a></li>
+    <li><a href="#faq">Вопросы</a></li>
+  </ul>
+  <a href="#pricing" class="nav-cta">Скидки</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span class="toggle-bar"></span><span class="toggle-bar"></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-inner">
+    <div class="mobile-menu-links">
+      <a href="#" class="mobile-menu-link" data-index="01">Главная</a>
+      <a href="#features" class="mobile-menu-link" data-index="02">Работы</a>
+      <a href="#pricing" class="mobile-menu-link" data-index="03">Услуги</a>
+      <a href="#testimonials" class="mobile-menu-link" data-index="04">Отзывы</a>
+      <a href="#integrations" class="mobile-menu-link" data-index="05">Технологии</a>
+      <a href="#faq" class="mobile-menu-link" data-index="06">Вопросы</a>
+      <a href="#cta" class="mobile-menu-link" data-index="07">Скидки</a>
+    </div>
+    <div class="mobile-menu-footer">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Side Panels -->
+<nav class="side-panel left" aria-label="Scroll indicators">
+  <span class="side-label">Вёрстка</span>
+  <div class="side-track"><div class="side-track-fill" id="leftTrack"></div></div>
+  <div class="side-dot active"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-readout" id="scrollPct">00</div>
+</nav>
+
+<nav class="side-panel right" aria-label="Status indicators">
+  <span class="side-label">Статус</span>
+  <div class="side-track"><div class="side-track-fill" id="rightTrack"></div></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot active"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-readout">Запись</div>
+</nav>
+
+<main class="main">
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-badge">
+      <div class="hero-badge-dot"></div>
+      <span>Всегда активен с вами</span>
+    </div>
+    <h1>0.4 секунды. Чистый код.<br><em>Основы продаж. </em></h1>
+    <p class="hero-sub">
+      WebScye — ИТ-студия быстрых решений.Мы создаем автономные лэндинги на чистом коде без конструкторов. Скорость загрузки — 0.4 секунды. Без абонентской платы.
+    </p>
+    <div class="hero-ctas">
+      <a href="https://vk.com/club239234998" class="btn-primary">Свяжитесь с нами</a>
+      <a href="https://max.ru/join/SC8bCrPj3aClvpDUYVI-bkIKhYmFoEWp-e6u-Pn-GGI" class="btn-secondary">Подпишитесь на нашу группу</a>
+    </div>
+    <div class="hero-metrics">
+      <div class="metric">
+        <div class="metric-value"><span class="counter" data-target="99.9" data-decimals="1">0.0</span><span>%</span></div>
+        <div class="metric-label">выполненные задачи</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value"><span class="counter" data-target="2099" data-decimals="0">0</span><span>+</span></div>
+        <div class="metric-label">Клиентов</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value"><span class="counter" data-target="35" data-decimals="0">0</span><span>ms</span></div>
+        <div class="metric-label">Ср.задерж.Сайта</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ LOGO TICKER ═══ -->
+  <div class="logo-ticker reveal">
+    <div class="logo-ticker-label">Наши будущие компании</div>
+    <div class="ticker-track" id="tickerTrack">
+      <span class="ticker-item">RekScye</span><span class="ticker-dot"></span>
+      <span class="ticker-item">VVScye</span><span class="ticker-dot"></span>
+      <span class="ticker-item">1CScye</span><span class="ticker-dot"></span>
+      <span class="ticker-item">AIScye</span><span class="ticker-dot"></span>
+      <span class="ticker-item">EkoScye</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Scye Group</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Scye Media</span><span class="ticker-dot"></span>
+      
+    </div>
+  </div>
+
+  <!-- ═══ FEATURES ═══ -->
+  <section class="section" id="features">
+
+    <div class="feature reveal">
+      <div class="feature-visual">
+        <img src="images/Снимок экрана 2026-06-13 144805.png" alt="Intelligent automation dashboard">
+      </div>
+      <div class="feature-content">
+        <div class="feature-number">01</div>
+        <p class="section-tag">Главная витрина школы</p>
+        <h2 class="section-title">Запуск сайта за 2–5 дней, <strong>а не месяца</strong></h2>
+        <p class="section-body">
+          Сверхскоростной лэндинг для языковой школы «English Start». Очистили код от цифрового мусора, поэтому сайт открывается на телефонах родителей за 0.4 секунды. Весь поток рекламы из ВК теперь мгновенно превращается в готовые заявки.
+        </p>
+      </div>
+    </div>
+
+    <div class="feature reverse reveal">
+      <div class="feature-visual">
+        <img src="images/Снимок экрана 2026-01-19 150229.png" alt="Predictive analytics visualization">
+      </div>
+      <div class="feature-content">
+        <div class="feature-number">02</div>
+        <p class="section-tag">Удобство и Контроль</p>
+        <h2 class="section-title">Управляй сайтом за пару минут, <strong>а не часов</strong></h2>
+        <p class="section-body">
+          Встраиваем в чистый код нашу собственную легкую админку. Вы сможете самостоятельно менять цены, тексты и направления курсов в 2 клика. Для этого не нужны программисты, базы данных или знание кода. Всё интуитивно понятно и работает мгновенно как с компьютера, так и с телефона.
+        </p>
+      </div>
+    </div>
+
+    <div class="feature reveal">
+      <div class="feature-visual">
+        <img src="images/Снимок экрана 2026-01-19 150003.png" alt="Unified team workspace">
+      </div>
+      <div class="feature-content">
+        <div class="feature-number">03</div>
+        <p class="section-tag">Честный чекыы</p>
+        <h2 class="section-title">Фиксированная цена <strong>без скрытых платежей</strong></h2>
+        <p class="section-body">
+          Мы не берем деньги за имя и не привязываем вас к платным конструкторам. Вы платите только один раз за чистый код, который работает на автопилоте и не требует расходов на обслуживание. Ниже представлены два прозрачных тарифа под любые задачи вашей школы.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- ═══ PRICING ═══ -->
+  <section class="section section-center" id="pricing">
+    <p class="section-tag reveal">Честный чек</p>
+    <h2 class="section-title reveal reveal-d1">Выберите тарифный план, который <strong>соответствует вашим потребностям</strong></h2>
+    <p class="section-body reveal reveal-d2">Выбирайте тариф, который соответствует вашему бизнесу</p>
+
+    <div class="pricing-toggle reveal reveal-d3">
+      <span class="pricing-toggle-label active" id="monthlyLabel">Стандарт</span>
+      <div class="toggle-switch" id="pricingToggle" role="switch" aria-checked="false" tabindex="0"></div>
+      <span class="pricing-toggle-label" id="annualLabel">Доп.Админ панель</span>
+      <span class="save-badge" id="saveBadge">Доп.от цены (+39%)</span>
+    </div>
+
+    <div class="pricing-grid">
+      <div class="pricing-card reveal reveal-d1">
+        <div class="pricing-badge">Popular</div>
+        <div class="pricing-tier">Starter</div>
+        <div class="pricing-prices">
+          <div class="price-option monthly active">
+            <div>
+              <div class="price-label">Базовый</div>
+              <div class="price-option-left">
+                <span class="price-currency">₽</span>
+                <span class="price-amount">4990</span>
+                <span class="price-period"></span>
+              </div>
+            </div>
+            <div class="price-yearly">₽300 /мес</div>
+          </div>
+          <div class="price-option annual">
+            <div>
+              <div class="price-label">Доп.функция</div>
+              <div class="price-option-left">
+                <span class="price-currency">₽</span>
+                <span class="price-amount">6950</span>
+                <span class="price-period"></span>
+              </div>
+            </div>
+            <div class="price-yearly">₽300 /мес</div>
+          </div>
+        </div>
+        <p class="pricing-desc">Для небольших школ, начинающих автоматизировать рабочие процессы.</p>
+        <ul class="pricing-features">
+          <li>Прирост клиентов до (+15%)</li>
+          <li>Удобство для клиентов</li>
+          <li>Полноценное портфолио</li>
+          <li>Мобильная адаптация</li>
+          <li>Переход с соц сетей в интернет</li>
+        </ul>
+        <a href="#" class="btn-secondary">Свяжитесь с нами</a>
+      </div>
+
+      <div class="pricing-card featured reveal reveal-d2">
+        <div class="pricing-badge">Popular</div>
+        <div class="pricing-tier">Professional</div>
+        <div class="pricing-prices">
+          <div class="price-option monthly active">
+            <div>
+              <div class="price-label">Базовый</div>
+              <div class="price-option-left">
+                <span class="price-currency">₽</span>
+                <span class="price-amount">7999</span>
+                <span class="price-period"></span>
+              </div>
+            </div>
+            <div class="price-yearly">₽400 /мес</div>
+          </div>
+          <div class="price-option annual">
+            <div>
+              <div class="price-label">Доп.Функция</div>
+              <div class="price-option-left">
+                <span class="price-currency">₽</span>
+                <span class="price-amount">11120</span>
+                <span class="price-period"></span>
+              </div>
+            </div>
+            <div class="price-yearly">₽400 /мес</div>
+          </div>
+        </div>
+        <p class="pricing-desc">Для популярных школ, с личными ассистентами и автоматизироваными рабочие процессы.</p>
+        <ul class="pricing-features">
+          <li>Динамичные анимации</li>
+          <li>Сайт хорошим доменом</li>
+          <li>Быстраяя адаптация</li>
+          <li>Сайт открывается мгновенно даже на старых смартфонах.</li>
+          <li>Адаптация на планшеты</li>
+          <li>Поставленный шрифт</li>
+        </ul>
+        <a href="#" class="btn-primary">Связаться со скидкой</a>
+      </div>
+
+      <div class="pricing-card reveal reveal-d3">
+        <div class="pricing-badge">Popular</div>
+        <div class="pricing-tier">Business</div>
+        <div class="pricing-prices">
+          <div class="price-option monthly active">
+            <div>
+              <div class="price-label">Базовый</div>
+              <div class="price-option-left">
+                <span class="price-currency">₽</span>
+                <span class="price-amount">14990</span>
+                <span class="price-period"></span>
+              </div>
+            </div>
+            <div class="price-yearly">₽500 /мес</div>
+          </div>
+          <div class="price-option annual">
+            <div>
+              <div class="price-label">Доп.Функция</div>
+              <div class="price-option-left">
+                <span class="price-currency">₽</span>
+                <span class="price-amount">19850</span>
+                <span class="price-period"></span>
+              </div>
+            </div>
+            <div class="price-yearly">₽500 /мес</div>
+          </div>
+        </div>
+        <p class="pricing-desc">Для продвинутым языковым школам, крупным языковым центрам и компания с активным трафиком.</p> 
+        <ul class="pricing-features">
+          <li>Абсолютно-чистый код</li>
+          <li>Быстрейшая скорость работы</li>
+          <li>Лучший дизайн</li>
+          <li>Адаптация на все устройства</li>
+          <li>Лучший домен</li>
+          <li>Гарантия на 2 месяца</li>
+          <li>Возможность партнёрства</li>
+        </ul>
+        <a href="#" class="btn-secondary">Свяжитесь с нами</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- ═══ TESTIMONIALS ═══ -->
+  <section class="section section-center" id="testimonials">
+    <p class="section-tag reveal">Отзывы от клиентов</p>
+    <h2 class="section-title reveal reveal-d1">Их восторженные комментарии о <strong> наших сайтах</strong></h2>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal reveal-d1">
+        <p class="testimonial-quote">"Ушли с Тильды на код от WebScye — цена заявки из Директа сразу упала на 27%. Сайт летает, окупился за неделю. Всё четко в тексте, без созвонов."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">ЕВ</div>
+          <div>
+            <div class="testimonial-name">Елена Власова</div>
+            <div class="testimonial-role">основатель центра «Lexicon»</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-d2">
+        <p class="testimonial-quote">"Чистый код за 0.4 сек — это разрыв. Интеграция с АльфаCRM работает без сбоев. Вместо пустых обещаний прислали видео-демо скорости и сразу сдали продукт."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">ИГ</div>
+          <div>
+            <div class="testimonial-name">Игорь Назаров</div>
+            <div class="testimonial-role">Маркетолог «Safe English»</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-d3">
+        <p class="testimonial-quote">"Заказали лендинг под сезонные интенсивы за 12 000 рублей. Без зум-созвонов, строго по ТЗ в чате. Сайт легкий, Яндекс SEO поднимает его сам."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">ДК</div>
+          <div>
+            <div class="testimonial-name">Дмитрий Ким</div>
+            <div class="testimonial-role">Директор школы «Сакура»</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- ═══ INTEGRATIONS ═══ -->
+  <section class="section section-center" id="integrations">
+    <p class="section-tag reveal">Integrations</p>
+    <h2 class="section-title reveal reveal-d1">Используем <strong>необычные системы и программы</strong></h2>
+    <p class="section-body reveal reveal-d2">Используем нововедённые технологии для сверхсоростных сайтов.</p>
+
+    <div class="integrations-grid reveal reveal-d3">
+      
+      <div class="integration-item"> <div class="integration-icon"> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg> </div> <div class="integration-name">GitHub</div> </div>
+      <div class="integration-item">
+        <div class="integration-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="m22 5-10 7L2 5"/></svg>
+        </div>
+        <div class="integration-name">Gmail</div>
+      </div>
+      
+      <div class="integration-item">
+        <div class="integration-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <div class="integration-name">Stripe</div>
+      </div>
+      <div class="integration-item">
+        <div class="integration-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <div class="integration-name">TimeWeb</div>
+      </div>
+      <div class="integration-item">
+        <div class="integration-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3h18v18H3z"/><path d="M3 9h18M9 3v18"/></svg>
+        </div>
+        <div class="integration-name">Airtable</div>
+      </div>
+      <div class="integration-item">
+        <div class="integration-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+        </div>
+        <div class="integration-name">Outlook</div>
+      </div>
+      
+      </div>
+      <div class="integration-item">
+        <div class="integration-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><circle cx="6" cy="6" r="1"/><circle cx="6" cy="18" r="1"/></svg>
+        </div>
+        <div class="integration-name">AWS</div>
+      </div>
+      <div class="integration-item">
+        <div class="integration-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+        </div>
+        <div class="integration-name">Tableau</div>
+      </div>
+      <div class="integration-item">
+        <div class="integration-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="integration-name">Okta</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- ═══ FAQ ═══ -->
+  <section class="section section-center" id="faq">
+    <p class="section-tag reveal">Инсересные вопросы</p>
+    <h2 class="section-title reveal reveal-d1">Самые распрастранённые <strong>вопросы</strong></h2>
+
+    <div class="faq-list reveal reveal-d2">
+      <div class="faq-controls">
+        <button class="faq-toggle-all" id="faqToggleAll">Открыть всё</button>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Как быстро делаются сайты?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Скорость сайта зависит от выбранного тарифа, ведь мелкие сайты делаются быстрее, чем большие, обычно скорость выполнения работы около 3-5 дней.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">На чём вы делайте мелкие сайты?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Как обычно, мы делаем сайты чисто на коде, он очень хорошо помагает сайту работать и его можно подключить быстро к админ панели.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Какой лимит символов у вас на сайте?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">У наших сайтах нету ограничений по символам, так же при большом кол-во символах, мы используем специальные программы, которые оптимизируют сайты. </div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Где вас найти, кроме браузерной ссылки?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">в VK, Telegram, MAX, вы помеже подать ссылку личные сообщения доверенного аккаунта WebScye и вы попадёте в группу клиентов.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Вам можно доверять?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Определённо, мы успеваем закончить заказ на заданный срок. </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER CTA ═══ -->
+  <section class="footer-cta" id="cta">
+    <p class="section-tag reveal">Ну что...</p>
+    <h2 class="section-title reveal reveal-d1">Начнём работу, <br><strong>не только в ВК?</strong></h2>
+    <p class="section-body reveal reveal-d2" style="margin: 0 auto;">Ответим за 5 минут, даже ночью.)</p>
+    <div class="footer-ctas reveal reveal-d3">
+      <a href="https://vk.com/club239234998" class="btn-primary">Свяжитесь с нами</a>
+      <a href="https://max.ru/join/SC8bCrPj3aClvpDUYVI-bkIKhYmFoEWp-e6u-Pn-GGI" class="btn-secondary" class="btn-secondary">Подписаться на наше сообщество в MAX</a>
+    </div>
+
+    <div class="footer-bar reveal reveal-d4" style="margin-top: 80px;">
+      <div class="footer-brand">WebScye &mdash; 2026</div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Status</a>
+        <span class="footer-credit">Design</a></span>
+        <span class="footer-credit">Images</a></span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="templatemo-621-luminary-script.js"></script>
+</body>
+</html>
